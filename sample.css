@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+#Container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    width: 100px;
+    margin-top: 10px;
+}
+.List{
+    display: inline;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.Link:hover{
+    text-decoration: underline;
+    color: red;
+}
+#hom{
+    display: flex;
+}
+.Home{
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+.title{
+    font-family: "Playwrite CU", cursive;
+    font-size: 40px;
+}
+.Text{
+    color: rgb(193, 118, 19);
+    font-family: "Dancing Script", cursive;
+}
+.Download{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+.img{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    right: 20px;  
+}
+.group1{
+    position: absolute;
+    
+    height: 100%;
+    bottom: 0px;
+    left: 20%;
+    transform: translateX(-20%);
+}
+.img:hover #shape{
+    bottom: 80px;
+}
+.img:hover #girl{
+    left: 20px;
+}
+#About{
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-right: 5%;
+}
+.section{
+    text-align: center;
+}
+.intro{
+    font-family: "Cormorant Garamond", serif;
+    padding: 50px;
+    color: darkblue;
+}
+.Content{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.para{
+    padding: 20px;
+    order: 2;
+    padding: 100px;
+}
+.Image{
+    order: 1;
+    text-align: justify;
+    width: 100%;
+    padding: 30px;
+}
+.icons{
+    margin-top: 100px;
+    align-items: center;  
+}
+.icons>span{
+    margin-left: 1rem;
+}
+#skills{
+    margin: 3% 8% 0px 5%;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.progressbars{
+    margin-left: 80px;
+}
+.barpercentage,.mainhead{
+    font-weight: 600px;
+    font-size: 1.3rem;   
+}
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlbar{
+    background-color: orange;
+    width: 89%;
+}
+.cssbar{
+    background-color: orange;
+    width: 82%;
+}
+.reactbar{
+    background-color: orange;
+    width: 71%;
+}
+.javabar{
+    background-color: orange;
+    width: 69%;
+}
+#Contact{
+    margin: 8% 8% 0px 8%;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;  
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brands{
+    color: black;
+    font-size: 1rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to right, red , yellow);
+}
+.icon:hover .brands{
+    color: white;
+    /* Animation */
+    animation: rotate 5s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    25%{
+        transform: rotate(-40deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(-40deg);
+    }
+}
+footer{
+    margin-top: 5%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+.uparrow{
+    float: right;
+    margin-top: -33px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 10px;
+}
+
